@@ -38,24 +38,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 <body>
-<div>
-        <form method="POST"> 
-            <label for="user_name">User: </label>
-            <input type="text" name="user_name" placeholder="Enter your user name..."/>
-            <br /><br />
-            <label for="email">Email: </label>
-            <input type="email" name="email" placeholder="Enter your email..." />
-            <br /><br />
-            <label for="password">Password: </label>
-            <input type="password" name="password" placeholder="Enter your password..."/>
-            <br /><br />
-            <input type="submit" value="Signup" name='register'/>
-            <br /><br />
-            <a href="index.php?page=login">Login</a>
-            <br /><br />
+    <div>
+        <form method="POST" class="px-4 py-3"> 
+            <div class="mb-3">
+                <label for="user_name" class="form-label">User: </label>
+                <input type="text" name="user_name" class="form-control" placeholder="Enter your user name..."/>
+            </div>
+            <div class="mb-3">
+                <label for="email"  class="form-label">Email: </label>
+                <input type="email" name="email" class="form-control" placeholder="Enter your email..." />
+            </div>
+            <div class="mb-3">
+                <label for="password"  class="form-label">Password: </label>
+                <input type="password" name="password" class="form-control" placeholder="Enter your password..."/>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign up</button>
         </form>
+    </div>
+    <div class="px-4 py-3">
+        <a href="index.php?page=login" class="btn btn-outline-dark">Login</a>
     </div>
 </body>
 </html>

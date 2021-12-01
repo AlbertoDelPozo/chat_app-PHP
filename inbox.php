@@ -34,14 +34,20 @@ if (isset($_GET['id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Inbox</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 <body>
-    <a href="index.php?page=home">Send message</a>   
-    <a href="logout.php">Logout</a>
-    <a href="index.php?page=outbox">Outbox</a>
-    <a href="index.php?page=profile">Profile</a>
-    <a href="index.php?page=admin_zone">Admin Zone</a>
-
+    <div class="container" class="d-flex justify-content-center">
+        <nav class="navbar fixed-top navbar-dark bg-dark" >
+            <a href="index.php?page=home" class="navbar-brand">Send message</a>   
+            <a href="logout.php" class="navbar-brand">Logout</a>
+            <a href="index.php?page=outbox" class="navbar-brand">Outbox</a>
+            <a href="index.php?page=profile" class="navbar-brand">Profile</a>
+            <a href="index.php?page=admin_zone" class="navbar-brand">Admin Zone</a>
+        </nav>
+    </div>
+<br><br>
     <div>
         <h1>Your messages:</h1>
 
