@@ -1,6 +1,6 @@
 # chat_app-PHP
 
-Aplicación de mensajería realizada con php.
+_Aplicación de mensajería realizada con php._
 
 ## Comenzando 🚀
 
@@ -11,10 +11,12 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Programas necesarios_
 
 ```
-Da un ejemplo
+Para poder probar la aplicación es necesario tener instalado XAMPP e introducir el archivo .sql en phpmyadmin. 
+Después escribes localhost en la barra de búsqueda de tu navegador junto con el nombre que le hayas puesto a la base de datos
+
 ```
 
 ### Instalación 🔧
