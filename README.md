@@ -23,7 +23,7 @@ Después escribes localhost en la barra de búsqueda de tu navegador junto con e
 ### Instalación 🔧
 
 ```
-Instalar XAMPP en tu equipo.
+ - Instalar XAMPP en tu equipo.
 ```
 
 
