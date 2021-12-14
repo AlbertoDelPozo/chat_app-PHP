@@ -1,13 +1,14 @@
 # chat_app-PHP
 
-_Aplicación de mensajería realizada con php._
+Aplicación de mensajería realizada con php.
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+Para recibir una copia del proyecto escribirme un mensaje.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
+Hasta el momento no hay deployment pero esto irá cambiando en el futuro.
 
 ### Pre-requisitos 📋
 
@@ -21,25 +22,16 @@ Después escribes localhost en la barra de búsqueda de tu navegador junto con e
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
 ```
-Da un ejemplo
+Instalar XAMPP en tu equipo.
 ```
 
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
 _Explica como ejecutar las pruebas automatizadas para este sistema_
+
+Para usar el programa necesitas registrarte primero y después iniciar sesión, una vez dentro del programa podrás usarlo facilmente.
 
 ### Analice las pruebas end-to-end 🔩
 
@@ -59,11 +51,9 @@ Da un ejemplo
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+Próximamente estará disponible
 
 ## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Visual Studio](https://code.visualstudio.com) - Entorno utilizado
 * [PHP](https://www.php.net/manual/es/intro-whatis.php) - Lenguaje utilizado
@@ -84,10 +74,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Alberto Del Pozo Villar** - *Trabajo* - [AlbertoDelPozo](https://github.com/AlbertoDelPozo)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
