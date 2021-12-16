@@ -38,12 +38,12 @@ if (isset($_GET['id'])) {
 
 </head>
 <body>
-        <nav class="navbar fixed-top navbar-dark bg-dark d-flex justify-content-center">
+    <nav class="navbar fixed-top navbar-dark bg-dark d-flex justify-content-center">
         <a href="index.php?page=home" class="navbar-brand">Send message</a>   
-        <a href="logout.php" class="navbar-brand">Logout</a>
         <a href="index.php?page=outbox" class="navbar-brand">Outbox</a>
         <a href="index.php?page=profile" class="navbar-brand">Profile</a>
         <a href="index.php?page=admin_zone" class="navbar-brand">Admin Zone</a>
+        <a href="logout.php" class="navbar-brand">Logout</a>
     </nav>
 <br><br>
     <div>

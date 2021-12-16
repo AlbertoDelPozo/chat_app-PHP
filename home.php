@@ -41,11 +41,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-        <a href="index.php" class="navbar-brand">Logout</a>
+    <nav class="navbar fixed-top navbar-dark bg-dark d-flex justify-content-center"> 
         <a href="index.php?page=inbox" class="navbar-brand">Inbox</a>
         <a href="index.php?page=outbox" class="navbar-brand">Outbox</a>
         <a href="index.php?page=profile" class="navbar-brand">Profile</a>
+        <a href="index.php" class="navbar-brand">Logout</a>
     </nav>
 
     <h1>Chat area:</h1>
@@ -55,15 +55,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <form method="post" enctype="multipart/form-data">
             <label for="contact">Send message to: </label>
             <br />
-            <input type="text" id="contact" placeholder="Type here the contact..." name="user_name" required />
-            <br /><br />
-            <label for="message">Message: </label>
+            <input type="text" id="contact" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" name="user_name" required />
             <br />
-            <input type="text" id="message" placeholder="Type your message here..." name="message" required />
-            <br /><br />
+            <div class="mb-3">
+                <label for="message" class="form-label">Message: </label>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Type your message here..." required></textarea>
+            </div>
+            <br />
             <label for="">Select image to upload: </label>
             <br />
-            <input type="file" name="fileToUpload" id="fileToUpload" />
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" name="fileToUpload" id="fileToUpload">
+            </div>
+            
             <button type="submit" value="Send">Send</button>
         </form>
     </div>

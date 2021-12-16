@@ -20,12 +20,16 @@ $stmt = $pdo->prepare("SELECT * FROM  users WHERE id = '$user_id'");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 <body>
-    <a href="index.php">Logout</a>
-    <a href="index.php?page=inbox">Inbox</a>
-    <a href="index.php?page=outbox">Outbox</a>
-    <a href="index.php?page=update_profile">Edit profile</a>
+    <nav class="navbar fixed-top navbar-dark bg-dark d-flex justify-content-center"> 
+        <a href="index.php?page=inbox" class="navbar-brand">Inbox</a>
+        <a href="index.php?page=outbox" class="navbar-brand">Outbox</a>
+        <a href="index.php?page=update_profile" class="navbar-brand">Edit profile</a>
+        <a href="index.php" class="navbar-brand">Logout</a>
+    </nav>
 
     <h1>Profile: </h1>
 
