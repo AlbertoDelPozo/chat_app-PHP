@@ -1,4 +1,4 @@
-# chat_app-PHP
+# chat_app-PHP 📩
 
 Aplicación de mensajería realizada con php.
 
@@ -41,6 +41,10 @@ Próximamente estará disponible
 * **Alberto Del Pozo Villar** - *Trabajo* - [AlbertoDelPozo](https://github.com/AlbertoDelPozo)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+
+## Agradecimientos 🤝
+
+* **Luis Monzón** - [Luis4609](https://github.com/Luis4609)
 
 ## Licencia 📄
 
